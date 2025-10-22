@@ -1,5 +1,22 @@
 # LLM
 
+## The setup
+
+Docker compose:
+* Ollama
+    * Runs model
+    * Model needs to be downloaded, but only once (volume)
+    * GPU would be nice
+* rest-wrapper
+    * Python fastApi, needs to be built
+    * Has personality on files (accessible, not just on volume)
+    * Is go between for webUI
+* WebUI
+    * Optional (is big)
+    * But nice
+
+# Old information
+
 
 ## What You Can Realistically Run
 
